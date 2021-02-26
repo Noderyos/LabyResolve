@@ -52,6 +52,7 @@ def resolve(matrice, endx, endy):
     
     while x != endx:
         while y != endy:
+            # Limite de 10000 mouvement
             while nb < 10000:
                 rand = random.randint(1,4)
                 print("pos x= "+ str(x) + " y = " + str(y))
